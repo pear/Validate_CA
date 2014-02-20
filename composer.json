@@ -1,0 +1,36 @@
+{
+    "authors": [
+        {
+            "email": "Philippe.Jausions@11abacus.com",
+            "name": "Philippe Jausions",
+            "role": "Lead"
+        },
+        {
+            "email": "davidc@php.net",
+            "name": "David Coallier",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Validate": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Validate_CA",
+    "include-path": [
+        "./"
+    ],
+    "license": "New BSD",
+    "name": "pear/validate_ca",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_CA",
+        "source": "https://github.com/pear/Validate_CA"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
